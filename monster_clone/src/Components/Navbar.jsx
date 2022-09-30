@@ -11,13 +11,24 @@ import {
   MenuList,
   Stack,
 } from "@chakra-ui/react";
+
 import React from "react";
+// import { Link } from "react-router-dom";
 import Login from "./Login";
 
 const Navbar = () => {
   return (
     <div>
-      <Box as="div" border="1px solid red" p={2} h="4rem" bg="white">
+      <Box
+        as="div"
+        boxShadow="base"
+        p={2}
+        h="4rem"
+        bg="white"
+        position={"fixed"}
+        zIndex={"10"}
+        w="100%"
+      >
         <Flex justifyContent="space-evenly">
           <Box as="div" w="12%" p={2} color="white" h="3rem">
             <Image
@@ -207,6 +218,8 @@ const Navbar = () => {
               </Button> */}
 
               <Menu>
+                {/* <Link to="/premium"> */}
+
                 <MenuButton
                   as={Button}
                   // rightIcon={<ChevronDownIcon />}
@@ -220,6 +233,9 @@ const Navbar = () => {
                 >
                   PREMIUM SERVICES
                 </MenuButton>
+
+                {/* </Link> */}
+
                 <MenuList color="black" borderRadius="none" fontSize="11px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     FEATURED FROFILE

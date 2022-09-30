@@ -1,19 +1,29 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import { Box, Flex, IconButton, Image } from "@chakra-ui/react";
-
-// import "./App.css";
 import React from "react";
 
 function Logo() {
   return (
     <>
-      <Flex h="100px" p={6} gap="1rem" cursor="pointer" bg="blue.50" marginTop={2}>
+      <Flex
+        h="100px"
+        p={6}
+        gap="1rem"
+        cursor="pointer"
+        bg="whiteAlpha.900"
+        // boxShadow="base"
+        // border="1px solid red"
+        marginTop={2}
+      >
         <Box p={3}>
           <IconButton
             colorScheme="blue"
             borderRadius="20px"
             fontSize="20px"
-            bg="gray.300"
+            bg="whiteAlpha.500"
+            color="black"
+            boxShadow="base"
+            _hover={{ boxShadow: "dark-lg" }}
             icon={<ChevronLeftIcon />}
           />
         </Box>
@@ -64,7 +74,10 @@ function Logo() {
             colorScheme="blue"
             borderRadius="20px"
             fontSize="20px"
-            bg="gray.300"
+            bg="whiteAlpha.500"
+            color="black"
+            boxShadow="base"
+            _hover={{ boxShadow: "dark-lg" }}
             icon={<ChevronRightIcon />}
           />
         </Box>
@@ -74,3 +87,4 @@ function Logo() {
 }
 
 export default Logo;
+
