@@ -21,14 +21,53 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import Logo from "./Logo";
+// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
 
 function HomePage() {
+  // let settings = {
+  //   dots: false,
+  //   infinite: false,
+  //   speed: 500,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   initialSlide: 0,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 3,
+  //         infinite: true,
+  //         dots: true
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 600,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 2,
+  //         initialSlide: 2
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1
+  //       }
+  //     }
+  //   ]
+  // };
   return (
+
     <>
     
       <Stack
         w="100%"
         h="350px"
+        marginTop="4rem"
         bgImage="https://static.vecteezy.com/system/resources/previews/002/088/794/non_2x/abstract-banner-with-low-poly-plexus-design-free-vector.jpg"
       >
         <Box w="80%" h="250px" margin="auto" marginTop="5rem">
@@ -160,7 +199,7 @@ function HomePage() {
       </Stack>
 
       <Stack w="85%" margin="auto" p={1}>
-        <Box p={2} boxShadow="base">
+        <Box p={2} boxShadow="base" h="150px">
           <Stack>
             <Heading fontSize="20px">Employers of Choice</Heading>
           </Stack>
@@ -231,6 +270,8 @@ function HomePage() {
           <Flex gap={2} h="auto">
             <Box w="80%" p={2}>
               {/* Work From Home Start*/}
+              {/* <Slider {...settings}> */}
+
               <Box bg="whiteAlpha.700" boxShadow="base">
                 <Heading
                   fontSize="20px"
@@ -321,6 +362,7 @@ function HomePage() {
                   </Box>
                 </Flex>
               </Box>
+              {/* </Slider> */}
               {/* Work From Home End*/}
               {/* Recent Jobs Start*/}
               <Box marginTop={2} boxShadow="2xl" bg="whiteAlpha.700">

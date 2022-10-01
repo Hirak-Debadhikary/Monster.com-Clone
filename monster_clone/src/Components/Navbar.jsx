@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 
 import React from "react";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import Login from "./Login";
 
@@ -26,16 +27,19 @@ const Navbar = () => {
         h="4rem"
         bg="white"
         position={"fixed"}
+        top="0px"
         zIndex={"10"}
         w="100%"
       >
         <Flex justifyContent="space-evenly">
           <Box as="div" w="12%" p={2} color="white" h="3rem">
-            <Image
-              src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg"
-              alt="image"
-              cursor="pointer"
-            ></Image>
+            <Link to="/">
+              <Image
+                src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg"
+                alt="image"
+                cursor="pointer"
+              ></Image>
+            </Link>
           </Box>
           <Box as="div" w="45%" p={0.5} color="white" h="3rem">
             <Stack
@@ -218,23 +222,21 @@ const Navbar = () => {
               </Button> */}
 
               <Menu>
-                {/* <Link to="/premium"> */}
-
-                <MenuButton
-                  as={Button}
-                  // rightIcon={<ChevronDownIcon />}
-                  color="orange.600"
-                  fontSize="12px"
-                  w="35%"
-                  fontStyle="revert"
-                  variant="none"
-                  bg="orange.200"
-                  _hover={{ color: "blue" }}
-                >
-                  PREMIUM SERVICES
-                </MenuButton>
-
-                {/* </Link> */}
+                <Link to="/premium">
+                  <MenuButton
+                    as={Button}
+                    // rightIcon={<ChevronDownIcon />}
+                    color="orange.600"
+                    fontSize="12px"
+                    // w="35%"
+                    fontStyle="revert"
+                    variant="none"
+                    bg="orange.200"
+                    _hover={{ color: "blue" }}
+                  >
+                    PREMIUM SERVICES
+                  </MenuButton>
+                </Link>
 
                 <MenuList color="black" borderRadius="none" fontSize="11px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
@@ -284,8 +286,9 @@ const Navbar = () => {
                   fontStyle="revert"
                   variant="none"
                 >
-                  HOME
+                  MORE
                 </MenuButton>
+
                 <MenuList color="black" borderRadius="none" fontSize="11px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     SPECIAL ABITITY JOBS
