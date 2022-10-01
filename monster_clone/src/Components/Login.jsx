@@ -19,6 +19,8 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import React from "react";
+// import {signInWithGoogle} from "./firebase"
+
 
 function Login() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -135,6 +137,7 @@ function Login() {
                 gap={2}
                 borderRadius="50px"
                 _hover={{ bg: "green.100", color: "black", border: "none" }}
+                // onClick={signInWithGoogle}
               >
                 <Image
                   src="https://developers.google.com/static/business-communications/images/logo-guidelines/do-logo-circle.png"

@@ -6,7 +6,7 @@ import React from "react";
 function Futer() {
   return (
     <div>
-      <Box border="1px solid red" h="300px" bg="purple.600">
+      <Box h="300px" bg="purple.600" >
         <Flex gap={2} p={7} marginLeft="10%">
           <Box w="17%" h="250px">
             <Stack p={1} color="whiteAlpha.800">
@@ -152,20 +152,17 @@ function Futer() {
               >
                 Contact Us
               </Button>
-              {/* <NavLink to="/premium"> */}
-                
-                  <Button
-                    fontSize="15px"
-                    color="whiteAlpha.700"
-                    cursor="pointer"
-                    fontWeight="10%"
-                    variant="link"
-                  >
-                    PREMIUM SERVICES
-                  </Button>
-                
-              {/* </NavLink> */}
-             
+
+              <Button
+                fontSize="15px"
+                color="whiteAlpha.700"
+                cursor="pointer"
+                fontWeight="10%"
+                variant="link"
+              >
+                Career with us
+              </Button>
+
               <Button
                 fontSize="15px"
                 color="whiteAlpha.700"
