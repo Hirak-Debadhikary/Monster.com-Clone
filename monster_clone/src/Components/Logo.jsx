@@ -124,55 +124,55 @@ function Logo() {
       <Slider {...settings}>
         
         
-          <Box h="80px" bg="gray.100" p={2} > 
+          <Box h="100px" bg="gray.100" p={2} > 
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/september/8EFB5ogZpGqjJ8A3MFXPL7SokqKk0YsnO7imlEbk.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/august/nGqLoPmZun0GxVuKOgaEBB7Q63BGdyOPqHxRpTCl.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2021/november/aGHVfuwztrBLUqQ4hUb3uhV1zgbGZTf9VaoKyRkm.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/april/Mp2fRLKl9YmxG7YBxanGbRYdkzMayIcwhiEe8HyD.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/march/THyXXtT5sPRi1gVwdxkrksZzSsv7f5UkDFwkaQJD.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/january/I32QY2OzbvdjaGT1p5mPc7YPDdxkEOAMeyIt3vHT.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/may/csLqDvD5G1J8NuUjYIXIS9vjE8FQMQjWJ6SRP4aj.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/july/JpYoK5TOwijxrufQCDo0F2jYc6sImQgHW6Befx8f.jpeg"
               p={2} w="300px"
             ></Image>
           </Box>
-          <Box h="80px" bg="gray.100" p={2}>
+          <Box h="100px" bg="gray.100" p={2}>
           <Image
               src="https://media.monsterindia.com/trex/prod-cdn/media/promotedemployer/2022/april/3u92a6TD7MslWbPJic4wSzABsLPBwtL0mrthYvxW.jpeg"
               p={2} w="300px"

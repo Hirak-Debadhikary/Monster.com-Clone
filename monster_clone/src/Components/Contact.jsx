@@ -15,7 +15,7 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      <Stack bg="purple.50" w="85%"  margin="auto" borderRadius="10px">
+      <Stack bg="purple.50" w="80%"  margin="auto" borderRadius="10px">
         <Flex p={2} gap={2}>
           <Box w="60%"  margin="auto" p={2}>
             <Heading fontSize="25px">Talk to our experts</Heading>

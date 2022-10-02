@@ -23,13 +23,14 @@ const Navbar = () => {
       <Box
         as="div"
         boxShadow="base"
-        p={2}
-        h="4rem"
+        p={3}
+        h="6rem"
         bg="white"
         position={"fixed"}
         top="0px"
         zIndex={"10"}
         w="100%"
+        // border="2px"
       >
         <Flex justifyContent="space-evenly">
           <Box as="div" w="12%" p={2} color="white" h="3rem">
@@ -41,7 +42,7 @@ const Navbar = () => {
               ></Image>
             </Link>
           </Box>
-          <Box as="div" w="45%" p={0.5} color="white" h="3rem">
+          <Box as="div" w="45%" p={2} color="white" h="3rem">
             <Stack
               spacing={4}
               direction="row"
@@ -53,14 +54,14 @@ const Navbar = () => {
                   as={Button}
                   // bottomIcon={<ChevronDownIcon />}
                   color="black"
-                  fontSize="12px"
+                  fontSize="16px"
                   fontStyle="revert"
                   variant="none"
                   // w="170px"
                 >
                   JOB SEARCH
                 </MenuButton>
-                <MenuList color="black" borderRadius="none" fontSize="11px">
+                <MenuList color="black" borderRadius="none" fontSize="14px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     JOBS BY LOCATION
                   </MenuItem>
@@ -120,13 +121,13 @@ const Navbar = () => {
                   as={Button}
                   // rightIcon={<ChevronDownIcon />}
                   color="black"
-                  fontSize="12px"
+                  fontSize="16px"
                   fontStyle="revert"
                   variant="none"
                 >
                   WORK FROM HOME
                 </MenuButton>
-                <MenuList color="black" borderRadius="none" fontSize="11px">
+                <MenuList color="black" borderRadius="none" fontSize="14px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     WORK FROM HOME JOBS IN BANGALORE
                   </MenuItem>
@@ -181,13 +182,13 @@ const Navbar = () => {
                   as={Button}
                   // rightIcon={<ChevronDownIcon />}
                   color="black"
-                  fontSize="12px"
+                  fontSize="16px"
                   fontStyle="revert"
                   variant="none"
                 >
                   CAREER TIPS
                 </MenuButton>
-                <MenuList color="black" borderRadius="none" fontSize="11px">
+                <MenuList color="black" borderRadius="none" fontSize="14px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     JOB SEARCH STRATEGY
                   </MenuItem>
@@ -227,8 +228,9 @@ const Navbar = () => {
                     as={Button}
                     // rightIcon={<ChevronDownIcon />}
                     color="orange.600"
-                    fontSize="12px"
+                    fontSize="16px"
                     // w="35%"
+                    h="45px"
                     fontStyle="revert"
                     variant="none"
                     bg="orange.200"
@@ -238,7 +240,7 @@ const Navbar = () => {
                   </MenuButton>
                 </Link>
 
-                <MenuList color="black" borderRadius="none" fontSize="11px">
+                <MenuList color="black" borderRadius="none" fontSize="14px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     FEATURED FROFILE
                   </MenuItem>
@@ -282,14 +284,14 @@ const Navbar = () => {
                   as={Button}
                   // rightIcon={<ChevronDownIcon />}
                   color="black"
-                  fontSize="12px"
+                  fontSize="16px"
                   fontStyle="revert"
                   variant="none"
                 >
                   MORE
                 </MenuButton>
 
-                <MenuList color="black" borderRadius="none" fontSize="11px">
+                <MenuList color="black" borderRadius="none" fontSize="14px">
                   <MenuItem _hover={{ bg: "gray.200", color: "purple.500" }}>
                     SPECIAL ABITITY JOBS
                   </MenuItem>
@@ -321,7 +323,7 @@ const Navbar = () => {
               </Menu>
             </Stack>
           </Box>
-          <Box as="div" w="25%" p={1.5} color="white" h="3rem">
+          <Box as="div" w="25%" p={2} color="white">
             <Flex justifyContent="space-evenly" gap="2px">
               <Stack
                 spacing={1}
@@ -331,14 +333,14 @@ const Navbar = () => {
               >
                 <Login />
                 <Button
-                  w="140px"
-                  h="30"
+                  w="170px"
+                  h="40px"
                   borderColor="black"
                   border="1px"
                   bg="white"
                   color="black"
                   _hover={{ bg: "orange.400", color: "white", border: "none" }}
-                  fontSize="12px"
+                  fontSize="16px"
                 >
                   FOR EMPLOUERS
                 </Button>

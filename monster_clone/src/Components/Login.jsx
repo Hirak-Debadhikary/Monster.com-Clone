@@ -1,4 +1,4 @@
-import {  LockIcon, PhoneIcon, ViewIcon } from "@chakra-ui/icons";
+import { LockIcon, PhoneIcon, ViewIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
@@ -21,7 +21,6 @@ import {
 import React from "react";
 // import {signInWithGoogle} from "./firebase"
 
-
 function Login() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const firstField = React.useRef();
@@ -29,14 +28,14 @@ function Login() {
   return (
     <div>
       <Button
-        w="140px"
-        h="30"
+        w="170px"
+        h="40px"
         border="1px"
         borderColor="black"
         bg="white"
         color="black"
         _hover={{ bg: "orange.400", color: "white", border: "none" }}
-        fontSize="12px"
+        fontSize="16px"
         gap="1"
         onClick={onOpen}
       >
@@ -51,20 +50,17 @@ function Login() {
         placement="right"
         initialFocusRef={firstField}
         onClose={onClose}
+        size="md"
       >
         <DrawerOverlay />
         <DrawerContent>
-          <Box
-            //   border="1px solid red"
-            p={4}
-            gap={2}
-          >
+          <Box border="1px solid red" p={4} gap={2} h="800px">
             <Stack
               // border="1px solid black"
               gap={1}
             >
-              <Heading fontSize="26px">Welcome!</Heading>
-              <Text fontSize="15px">Log in using your Monster credentials</Text>
+              <Heading fontSize="30px">Welcome!</Heading>
+              <Text fontSize="19px">Log in using your Monster credentials</Text>
               <DrawerCloseButton
                 bg="black"
                 color="white"
@@ -80,6 +76,7 @@ function Login() {
                   borderRadius="none"
                   type="email"
                   placeholder="E-mail/Mobile"
+                  size="lg"
                 ></Input>
               </InputGroup>
 
@@ -94,8 +91,9 @@ function Login() {
                   borderRadius="none"
                   type="password"
                   placeholder="Enter password"
+                  size="lg"
                 ></Input>
-                <InputRightElement children={<ViewIcon color='gray.300' />} />
+                <InputRightElement children={<ViewIcon color="gray.300" />} />
               </InputGroup>
             </Stack>
             <Stack
@@ -105,7 +103,7 @@ function Login() {
               <Button
                 colorScheme="blue"
                 variant="link"
-                fontSize="11px"
+                fontSize="15px"
                 marginLeft="68%"
               >
                 Forgot Password
@@ -114,6 +112,7 @@ function Login() {
                 variant="solid"
                 bg="#E9D8FD"
                 _hover={{ bg: "purple.400" }}
+                size="lg"
               >
                 Login
               </Button>
@@ -125,16 +124,25 @@ function Login() {
               </Heading>
               <Divider />
             </Flex>
-            <Text fontSize="xl" align="center">
+            <Text fontSize="20px" align="center" marginBottom="2rem">
               with your social network
             </Text>
             {/*******************/}
-            <Stack direction="row" spacing={1} align="center" marginTop="2rem">
+            <Stack
+              direction="row"
+              align="center"
+              marginTop="2rem"
+              alignItems="center"
+              w="80%"
+              margin="auto"
+            >
               <Button
+                margin="auto"
                 colorScheme="teal"
                 variant="outline"
-                fontSize="10px"
+                fontSize="13px"
                 gap={2}
+                h="45px"
                 borderRadius="50px"
                 _hover={{ bg: "green.100", color: "black", border: "none" }}
                 // onClick={signInWithGoogle}
@@ -142,14 +150,17 @@ function Login() {
                 <Image
                   src="https://developers.google.com/static/business-communications/images/logo-guidelines/do-logo-circle.png"
                   alt="image"
-                  w="18px"
+                  w="22px"
                 ></Image>
                 Login with google
               </Button>
               <Button
+                margin="auto"
                 colorScheme="teal"
                 variant="outline"
-                fontSize="10px"
+                fontSize="13px"
+                gap={2}
+                h="45px"
                 borderRadius="50px"
                 _hover={{ bg: "blue.100", color: "black", border: "none" }}
               >
@@ -166,13 +177,15 @@ function Login() {
               border="1px solid gray"
               borderRadius="8px"
               bg="#F7FAFC"
-              p={2}
+              p={4}
               marginTop="1rem"
+              h="200px"
+
             >
-              <Heading fontSize="18px" align="center">
+              <Heading fontSize="22px" align="center">
                 New to Monster?
               </Heading>
-              <Text align="center" fontSize="12px">
+              <Text align="center" fontSize="18px" marginTop="1rem">
                 Create your profile now and be visible to the top recruiters in
                 the world
               </Text>
@@ -181,6 +194,7 @@ function Login() {
                 w="100%"
                 variant="solid"
                 bg="purple.400"
+                size="lg"
                 _hover={{ bg: "purple.700", color: "white" }}
               >
                 Register with us

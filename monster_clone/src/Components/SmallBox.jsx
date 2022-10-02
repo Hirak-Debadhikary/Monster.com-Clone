@@ -13,20 +13,22 @@ import React from "react";
 function SmallBox() {
   return (
     <div>
-      <Stack w="85%" margin="auto">
+      <Stack w="80%" margin="auto" bg="facebook.50" borderRadius="20px" marginBottom="1rem">
         <Flex gap={1} p={1}>
-          <Box w="50%">
+          <Box w="50%" >
             <VStack p={2}>
               {/* 1 */}
-              <Box
+              <Box 
                 boxShadow="base"
                 w="100%"
-                h="220px"
+                h="280px"
                 borderRadius="20px"
-                // border="1px solid black"
+                bg="whiteAlpha.900"
+                // bg="facebook.50"
+               
               >
-                <Flex p={2}>
-                  <Box w="50%" h="200px" borderRadius="20px" bg="pink.50">
+                <Flex p={4}>
+                  <Box w="50%" h="250px" borderRadius="20px" bg="pink.50" boxShadow="base">
                     <Image
                       src="https://media.monsterindia.com/trex/public/default/images/career-services/featured-profile-services.png"
                       w="80%"
@@ -35,8 +37,8 @@ function SmallBox() {
                     ></Image>
                   </Box>
                   <Box w="50%" h="200px" p={2}>
-                    <Heading fontSize="18px"> Featured Profile</Heading>
-                    <Text fontSize="15px" fontWeight="light" marginTop="1rem">
+                    <Heading fontSize="20px"> Featured Profile</Heading>
+                    <Text fontSize="18px" fontWeight="light" marginTop="1rem">
                       Rank your profile at the top to make you stand out in a
                       crowd of jobseekers
                     </Text>
@@ -47,6 +49,8 @@ function SmallBox() {
                       variant="solid"
                       marginTop="1rem"
                       color="white"
+                      size="lg"
+                      // fontSize="20px"
                       _hover={{ bg: "purple.700" }}
                     >
                       Starting at Rs:1999
@@ -57,7 +61,7 @@ function SmallBox() {
                       variant="link"
                       marginTop="1rem"
                       color="blackAlpha.700"
-                      fontSize="12px"
+                      fontSize="15px"
                     >
                       Benefits
                     </Button>
@@ -68,12 +72,14 @@ function SmallBox() {
               <Box
                 boxShadow="base"
                 w="100%"
-                h="220px"
+                h="280px"
                 borderRadius="20px"
+                bg="whiteAlpha.900"
+                // bg="facebook.50"
                 // border="1px solid black"
               >
-                <Flex p={2}>
-                  <Box w="50%" h="200px" borderRadius="20px" bg="pink.50">
+                <Flex p={4}>
+                  <Box w="50%"h="250px" borderRadius="20px" bg="pink.50" boxShadow="base">
                     <Image
                       src="https://media.monsterindia.com/trex/public/default/images/career-services/career-booster-services.png"
                       w="80%"
@@ -82,8 +88,8 @@ function SmallBox() {
                     ></Image>
                   </Box>
                   <Box w="50%" h="200px" p={2}>
-                    <Heading fontSize="18px"> Career Booster</Heading>
-                    <Text fontSize="15px" fontWeight="light" marginTop="1rem">
+                    <Heading fontSize="20px"> Career Booster</Heading>
+                    <Text fontSize="18px" fontWeight="light" marginTop="1rem">
                       Get the power of Resume Writing & Featured Profile to
                       boost your job search
                     </Text>
@@ -94,6 +100,7 @@ function SmallBox() {
                       variant="solid"
                       marginTop="1rem"
                       color="white"
+                      size="lg"
                       _hover={{ bg: "purple.700" }}
                     >
                       Starting at Rs:1999
@@ -104,7 +111,7 @@ function SmallBox() {
                       variant="link"
                       marginTop="1rem"
                       color="blackAlpha.700"
-                      fontSize="12px"
+                      fontSize="15px"
                     >
                       Benefits
                     </Button>
@@ -115,12 +122,14 @@ function SmallBox() {
               <Box
                 boxShadow="base"
                 w="100%"
-                h="220px"
+                h="280px"
                 borderRadius="20px"
+                bg="whiteAlpha.900"
+                // bg="facebook.50"
                 // border="1px solid black"
               >
-                <Flex p={2}>
-                  <Box w="50%" h="200px" borderRadius="20px" bg="pink.50">
+                <Flex p={4}>
+                  <Box w="50%" h="250px" borderRadius="20px" bg="pink.50" boxShadow="base">
                     <Image
                       src="https://media.monsterindia.com/trex/public/default/images/career-services/linkedin-makeover-services.png"
                       w="80%"
@@ -129,8 +138,8 @@ function SmallBox() {
                     ></Image>
                   </Box>
                   <Box w="50%" h="200px" p={2}>
-                    <Heading fontSize="18px">LinkedIn Makeover</Heading>
-                    <Text fontSize="15px" fontWeight="light" marginTop="1rem">
+                    <Heading fontSize="20px">LinkedIn Makeover</Heading>
+                    <Text fontSize="18px" fontWeight="light" marginTop="1rem">
                       Transform your linkedIn profile to elevate your
                       professional brand
                     </Text>
@@ -141,6 +150,7 @@ function SmallBox() {
                       variant="solid"
                       marginTop="1rem"
                       color="white"
+                      size="lg"
                       _hover={{ bg: "purple.700" }}
                     >
                       Starting at Rs:1999
@@ -151,7 +161,7 @@ function SmallBox() {
                       variant="link"
                       marginTop="1rem"
                       color="blackAlpha.700"
-                      fontSize="12px"
+                      fontSize="15px"
                     >
                       Benefits
                     </Button>
@@ -166,12 +176,14 @@ function SmallBox() {
               <Box
                 boxShadow="base"
                 w="100%"
-                h="220px"
+                h="280px"
                 borderRadius="20px"
+                bg="whiteAlpha.900"
+                // bg="facebook.50"
                 // border="1px solid black"
               >
-                <Flex p={2}>
-                  <Box w="50%" h="200px" borderRadius="20px" bg="pink.50">
+                <Flex p={4}>
+                  <Box w="50%" h="250px" borderRadius="20px" bg="pink.50" boxShadow="base">
                     <Image
                       src="https://media.monsterindia.com/trex/public/default/images/career-services/resume-writing-services.png"
                       w="80%"
@@ -180,8 +192,8 @@ function SmallBox() {
                     ></Image>
                   </Box>
                   <Box w="50%" h="200px" p={2}>
-                    <Heading fontSize="18px">Resume Writing</Heading>
-                    <Text fontSize="15px" fontWeight="light" marginTop="1rem">
+                    <Heading fontSize="20px">Resume Writing</Heading>
+                    <Text fontSize="18px" fontWeight="light" marginTop="1rem">
                       Get professionally written resume which helps you get your
                       dream job
                     </Text>
@@ -192,6 +204,7 @@ function SmallBox() {
                       variant="solid"
                       marginTop="1rem"
                       color="white"
+                      size="lg"
                       _hover={{ bg: "purple.700" }}
                     >
                       Starting at Rs:1999
@@ -202,7 +215,7 @@ function SmallBox() {
                       variant="link"
                       marginTop="1rem"
                       color="blackAlpha.700"
-                      fontSize="12px"
+                      fontSize="15px"
                     >
                       Benefits
                     </Button>
@@ -213,12 +226,14 @@ function SmallBox() {
               <Box
                 boxShadow="base"
                 w="100%"
-                h="220px"
+                h="280px"
                 borderRadius="20px"
+                bg="whiteAlpha.900"
+                // bg="facebook.50"
                 // border="1px solid black"
               >
-                <Flex p={2}>
-                  <Box w="50%" h="200px" borderRadius="20px" bg="pink.50">
+                <Flex p={4}>
+                  <Box w="50%" h="250px" borderRadius="20px" bg="pink.50" boxShadow="base">
                     <Image
                       src="https://media.monsterindia.com/trex/public/default/images/career-services/resume-highlighter-services.png"
                       w="80%"
@@ -227,8 +242,8 @@ function SmallBox() {
                     ></Image>
                   </Box>
                   <Box w="50%" h="200px" p={2}>
-                    <Heading fontSize="18px">Profile Highlighter</Heading>
-                    <Text fontSize="15px" fontWeight="light" marginTop="1rem">
+                    <Heading fontSize="20px">Profile Highlighter</Heading>
+                    <Text fontSize="18px" fontWeight="light" marginTop="1rem">
                       Differentiate yourself from the crowd and increase
                       visibility to the recruiters
                     </Text>
@@ -239,6 +254,7 @@ function SmallBox() {
                       variant="solid"
                       marginTop="1rem"
                       color="white"
+                      size="lg"
                       _hover={{ bg: "purple.700" }}
                     >
                       Starting at Rs:1999
@@ -249,7 +265,7 @@ function SmallBox() {
                       variant="link"
                       marginTop="1rem"
                       color="blackAlpha.700"
-                      fontSize="12px"
+                      fontSize="15px"
                     >
                       Benefits
                     </Button>
@@ -260,12 +276,13 @@ function SmallBox() {
               <Box
                 boxShadow="base"
                 w="100%"
-                h="220px"
+                h="280px"
                 borderRadius="20px"
+                bg="whiteAlpha.900"
                 // border="1px solid black"
               >
-                <Flex p={2}>
-                  <Box w="50%" h="200px" borderRadius="20px" bg="pink.50">
+                <Flex p={4}>
+                  <Box w="50%" h="250px" borderRadius="20px" bg="pink.50" boxShadow="base">
                     <Image
                       src="https://media.monsterindia.com/trex/public/default/images/career-services/mock-interview-services.png"
                       w="80%"
@@ -274,8 +291,8 @@ function SmallBox() {
                     ></Image>
                   </Box>
                   <Box w="50%" h="200px" p={2}>
-                    <Heading fontSize="18px">Mock Interview</Heading>
-                    <Text fontSize="15px" fontWeight="light" marginTop="1rem">
+                    <Heading fontSize="20px">Mock Interview</Heading>
+                    <Text fontSize="18px" fontWeight="light" marginTop="1rem">
                       Gain confidence to crack even the toughest interviews!
                     </Text>
 
@@ -285,6 +302,7 @@ function SmallBox() {
                       variant="solid"
                       marginTop="1rem"
                       color="white"
+                      size="lg"
                       _hover={{ bg: "purple.700" }}
                     >
                       Starting at Rs:1999
@@ -294,8 +312,8 @@ function SmallBox() {
                       colorScheme="teal"
                       variant="link"
                       marginTop="1rem"
-                      color="blackAlpha.700"
-                      fontSize="12px"
+                      color="blackAlpha.900"
+                      fontSize="15px"
                     >
                       Benefits
                     </Button>

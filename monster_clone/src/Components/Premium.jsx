@@ -16,7 +16,7 @@ function Premium() {
   return (
     <div>
       <Box  marginTop="4rem" p={10}>
-        <Stack  margin="auto" marginBottom="2rem">
+        <Stack  margin="auto" marginBottom="2rem" >
           <Flex justifyContent="space-between">
             <Box p={4}>
               <Heading fontFamily="cursive"> Buy Premium Services</Heading>
@@ -27,13 +27,13 @@ function Premium() {
             <Box p="4">
               <Button
                 w="300px"
-                h="40px"
+                h="50px"
                 border="1px"
                 // borderColor="black"
                 bg="purple.600"
                 color="white"
                 _hover={{ bg: "purple.600", color: "white", border: "none" }}
-                fontSize="14px"
+                fontSize="16px"
                 gap="5"
                 fontWeight="bold"
                 fontStyle="oblique"
@@ -47,7 +47,7 @@ function Premium() {
             </Box>
           </Flex>
 
-          <Text fontWeight="medium" fontSize="13px" fontStyle="italic">
+          <Text fontWeight="medium" fontSize="16px" fontStyle="italic">
             Premium Services are paid services specially crafted for job
             seekers. These services are offered by Monster to help the seekers
             get in touch with Industry Experts and professionals. It helps
